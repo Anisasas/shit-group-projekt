@@ -7,7 +7,6 @@ public class DoorSceneLoader : MonoBehaviour
 
     private void OnMouseDown()
     {
-        // Įkelia sceną kai paspaudi su pele
         SceneManager.LoadScene(sceneToLoad);
     }
 }
